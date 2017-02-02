@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/nasdaq.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -529,58 +529,6 @@ section {
 aside.clients {
     img {
         margin: 50px auto;
-    }
-}
-
-// Contact Section
-
-section#contact {
-    background-color: $gray-darker;
-    background-image: url('../img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    .section-heading {
-        color: white;
-    }
-    .form-group {
-        margin-bottom: 25px;
-        input,
-        textarea {
-            padding: 20px;
-        }
-        input.form-control {
-            height: auto;
-        }
-        textarea.form-control {
-            height: 236px;
-        }
-    }
-    .form-control:focus {
-        border-color: $theme-primary;
-        box-shadow: none;
-    }
-    ::-webkit-input-placeholder {
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    :-moz-placeholder { /* Firefox 18- */
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    ::-moz-placeholder {  /* Firefox 19+ */
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    :-ms-input-placeholder {  
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    .text-danger {
-        color: $theme-danger;
     }
 }
 

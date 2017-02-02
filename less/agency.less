@@ -377,7 +377,7 @@ section {
             height: 80px;
             position: absolute;
             z-index: 100;
-            background-color: @theme-primary;
+            background: @gray-lighter;
             color: white;
             border-radius: 100%;
             border: 7px solid #f1f1f1;
@@ -522,66 +522,6 @@ section {
     }
     p {
         margin-top: 0;
-    }
-}
-
-// Clients Aside
-
-aside.clients {
-    img {
-        margin: 50px auto;
-    }
-}
-
-// Contact Section
-
-section#contact {
-    background-color: @gray-darker;
-    background-image: url('../img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    .section-heading {
-        color: white;
-    }
-    .form-group {
-        margin-bottom: 25px;
-        input,
-        textarea {
-            padding: 20px;
-        }
-        input.form-control {
-            height: auto;
-        }
-        textarea.form-control {
-            height: 236px;
-        }
-    }
-    .form-control:focus {
-        border-color: @theme-primary;
-        box-shadow: none;
-    }
-    ::-webkit-input-placeholder {
-       .heading-font;
-       font-weight: 700;
-       color: @gray-lighter;
-    }
-    :-moz-placeholder { /* Firefox 18- */
-       .heading-font;
-       font-weight: 700;
-       color: @gray-lighter;
-    }
-    ::-moz-placeholder {  /* Firefox 19+ */
-       .heading-font;
-       font-weight: 700;
-       color: @gray-lighter;
-    }
-    :-ms-input-placeholder {  
-       .heading-font;
-       font-weight: 700;
-       color: @gray-lighter;
-    }
-    .text-danger {
-        color: @theme-danger;
     }
 }
 
