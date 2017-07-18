@@ -198,7 +198,6 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -381,7 +380,7 @@ section h3.section-subheading {
   content: "";
   width: 2px;
   background-color: #f1f1f1;
-  left: 40px;
+  left: 0;
   margin-left: -1.5px;
 }
 .timeline > li {
@@ -467,14 +466,14 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   .timeline:before {
-    left: 50%;
+    left: 25%;
   }
   .timeline > li {
     margin-bottom: 100px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
-    width: 41%;
+    width: 67%;
     float: left;
     padding: 0 20px 20px 30px;
     text-align: right;
@@ -482,7 +481,7 @@ section h3.section-subheading {
   .timeline > li .timeline-image {
     width: 100px;
     height: 100px;
-    left: 50%;
+    left: 25%;
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
