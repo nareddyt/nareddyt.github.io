@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
-Allow: /sitemap.htm
+Disallow:
+
 Sitemap: http://www.tejunareddy.com/sitemap.xml
