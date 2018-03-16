@@ -7,9 +7,9 @@
 /* Basic */
 
 	body {
-		background-image: url("images/bg-pink.jpg");
+		background-image: url("images/bg-orange-center.jpg");
 		background-size: cover;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		-ms-behavior: url("../../assets/js/ie/backgroundsize.min.htc");
 	}
 
 /* Section/Article */
