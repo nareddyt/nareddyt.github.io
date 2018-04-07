@@ -1134,7 +1134,7 @@
 
 /* Desktop */
 
-	@media screen and (min-width: 999px) {
+	@media screen and (min-width: 1000px) {
 
 		/* Basic */
 
@@ -1435,7 +1435,7 @@
 
 /* Mobile */
 
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 999px) {
 
 		/* Basic */
 
