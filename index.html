@@ -29,6 +29,9 @@
       ga('require', 'outboundLinkTracker', {
         events: ['click', 'auxclick', 'contextmenu']
       });
+      ga('require', 'eventTracker', {
+        events: ['click', 'auxclick', 'contextmenu']
+      });
       ga('send', 'pageview', {
         'page': location.pathname + location.search  + location.hash
       });
@@ -88,10 +91,26 @@
 
     <!-- Nav -->
     <nav id="nav">
-        <a href="#me" class="icon fa-home active"><span>Home</span></a>
-        <a href="#experience" class="icon fa-folder"><span>Experience</span></a>
-        <a href="#projects" class="icon fa-code"><span>Projects</span></a>
-        <a href="#pictures" class="icon fa-image"><span>Pictures</span></a>
+        <a ga-on="click,auxclick,contextmenu"
+           ga-event-category="Navigation: Home"
+           ga-event-action="click"
+           href="#me"
+           class="icon fa-home active"><span>Home</span></a>
+        <a ga-on="click,auxclick,contextmenu"
+           ga-event-category="Navigation: Experience"
+           ga-event-action="click"
+           href="#experience"
+           class="icon fa-folder"><span>Experience</span></a>
+        <a ga-on="click,auxclick,contextmenu"
+           ga-event-category="Navigation: Projects"
+           ga-event-action="click"
+           href="#projects"
+           class="icon fa-code"><span>Projects</span></a>
+        <a ga-on="click,auxclick,contextmenu"
+           ga-event-category="Navigation: Pictures"
+           ga-event-action="click"
+           href="#pictures"
+           class="icon fa-image"><span>Pictures</span></a>
     </nav>
 
     <!-- Main -->
@@ -107,7 +126,11 @@
                     Amazon, Google, and Salesforce
                 </p>
             </header>
-            <a href="#experience" class="jumplink pic">
+            <a ga-on="click,auxclick,contextmenu"
+               ga-event-category="Navigation: Experience"
+               ga-event-action="click"
+               href="#experience"
+               class="jumplink pic">
                 <span class="arrow icon fa-chevron-right"><span>See my work</span></span>
                 <img src="images/teju-nareddy.jpg" alt=""/>
             </a>
@@ -163,7 +186,12 @@
         <ul class="copyright">
             <li><a href="https://www.linkedin.com/in/tejasvinareddyteju/" target="_blank" class="icon fa-linkedin"><span> LinkedIn</span></a></li>
             <li><a href="https://github.com/nareddyt" target="_blank" class="icon fa-github"><span> GitHub</span></a></li>
-            <li><a href="Resume.pdf" target="_blank" class="icon fa-file-word-o"><span> Resume</span></a></li>
+            <li><a ga-on="click,auxclick,contextmenu"
+                   ga-event-category="Navigation: Resume"
+                   ga-event-action="click"
+                   href="Resume.pdf"
+                   target="_blank"
+                   class="icon fa-file-word-o"><span> Resume</span></a></li>
         </ul>
     </div>
 
