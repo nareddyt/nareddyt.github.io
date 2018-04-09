@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /dev.html
 
 Sitemap: http://www.tejunareddy.com/sitemap.xml

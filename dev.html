@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Developer Page</title>
+
+    <!-- Google Analytics -->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-68008474-2', 'auto');
+      ga('require', 'urlChangeTracker');
+      ga('require', 'outboundLinkTracker', {
+        events: ['click', 'auxclick', 'contextmenu']
+      });
+      ga('require', 'eventTracker', {
+        events: ['click', 'auxclick', 'contextmenu']
+      });
+      ga('send', 'pageview', {
+        'page': location.pathname + location.search  + location.hash
+      });
+      ga('set', 'dimension1', "teju===this-value-prevents-devs-from-showing-up-in-prod-metrics===teju");
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src="assets/js/autotrack.js"></script>
+    <!-- End Google Analytics -->
+
+</head>
+<body>
+<h1>Welcome to the Developer Page!</h1>
+<p>
+    Only <b>Teju Nareddy</b> should be visiting this page...
+</p>
+<a ga-on="click,auxclick,contextmenu"
+   ga-event-category="Dev->Home"
+   ga-event-action="click"
+   href="https://www.tejunareddy.com"
+   class="icon fa-file-word-o"><span>Click here to visit the Home Page</span></a>
+
+</body>
+</html>
