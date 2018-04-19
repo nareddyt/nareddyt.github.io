@@ -31,8 +31,8 @@
 
 		skel
 			.breakpoints({
-				desktop: '(min-width: 737px)',
-				mobile: '(max-width: 736px)'
+				desktop: '(min-width: 1000px)',
+				mobile: '(max-width: 999px)'
 			})
 			.viewport({
 				breakpoints: {
