@@ -18,7 +18,9 @@
 
     <!--[if lte IE 8]>
     <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
@@ -147,14 +149,15 @@
         <!-- Experience -->
         <article id="experience" class="panel">
             <header>
-                <h2>Experience</h2>
+                <h2 class="centered">Experience</h2>
+                <hr/>
             </header>
 
             <div class="row centered">
                 <div class="8u 12u$(mobile)">
-                    <p>
-                        Hi! I'm a <b>Software Engineer</b> with experience in a variety of technology stacks and project teams.
-                        I love to work on meaningful software projects and contribute to <b>open source</b>.
+                    <p class="long">
+                        Hi! I'm a <b>Software Engineer</b> with experience across various technologies, whether at work or in my free time.
+                        I love to work on meaningful software projects and contribute to a variety of <b>open source</b> projects.
                         <br/>
                         <br/>
                         Currently, I'm a senior at <b>Georgia Tech</b> with concentrations in Cloud Computing and Artificial Intelligence.
@@ -163,7 +166,7 @@
                         I anticipate on gradating in <b>May 2019</b>.
                         <br/>
                         <br/>
-                        I have <b>internship</b> experience at Amazon Web Services, Google Cloud Platform, and Salesforce IoT as a Software Engineer.
+                        I worked as a <b>Software Engineering Intern</b> at Amazon Web Services, Google Cloud Platform, and Salesforce IoT.
                     </p>
                 </div>
                 <div class="4u 12u$(mobile)">
@@ -174,7 +177,7 @@
             <section>
                 <div class="row centered">
                     <div class="4u 12u$(mobile)">
-                        <a href="#" class="image fit company"><img src="images/icon-amazon.png" alt=""></a>
+                        <a class="image fit company"><img src="images/icon-amazon.png" alt=""></a>
                         <p class="company">
                             <b>Amazon Web Services</b><br/>
                             Elastic MapReduce<br/>
@@ -182,7 +185,7 @@
                         </p>
                     </div>
                     <div class="4u 12u$(mobile)">
-                        <a href="#" class="image fit company"><img src="images/icon-google.png" alt=""></a>
+                        <a class="image fit company"><img src="images/icon-google.png" alt=""></a>
                         <p class="company">
                             <b>Google Cloud Platform</b><br/>
                             Cloud Apigee<br/>
@@ -190,7 +193,7 @@
                         </p>
                     </div>
                     <div class="4u 12u$(mobile)">
-                        <a href="#" class="image fit company"><img src="images/icon-salesforce.png" alt=""></a>
+                        <a class="image fit company"><img src="images/icon-salesforce.png" alt=""></a>
                         <p class="company">
                             <b>Salesforce</b><br/>
                             IoT & Compute Cloud<br/>
@@ -199,13 +202,24 @@
                     </div>
                 </div>
             </section>
+            <hr/>
             <header>
-                <h3>Areas of Focus</h3>
+                <h3 class="centered">Skill Sets</h3>
             </header>
             <section>
-                TODO
+                 <!--TODO -->
+                <!--<div class="row">-->
+                    <!--<div class="2u">-->
+                        <!--<a class="image fit company"><img src="images/icon-amazon.png" alt=""></a>-->
+                    <!--</div>-->
+                    <!--<div class="10u">-->
+                        <!--<p>-->
+                            <!--<b>Cloud Computing:</b> TODO-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
             </section>
-            <section>
+            <section class="centered">
                 Check out my <a href=https://www.linkedin.com/in/tejasvinareddyteju/" target="_blank">LinkedIn</a> for more details.
                 Feel free to message me on there or <a href="mailto:tejunareddy@gmail.com" target="_blank">email me</a>!
             </section>
@@ -214,11 +228,60 @@
         <!-- Projects -->
         <article id="projects" class="panel">
             <header>
-                <h2>Projects</h2>
+                <h2 class="centered">Projects</h2>
+                <hr>
             </header>
-            <p>
-                Oops! This page currently has no content. Please check back in a few weeks.
-            </p>
+
+            <header>
+                <h3 class="centered">Open Source Contributions</h3>
+            </header>
+
+            <section>
+                <div class="row centered">
+                    <div class="6u 12u$(mobile)">
+                        <div class="card border-success mb-3">
+                            <div class="card-header">Author & Maintainer</div>
+                            <div class="card-body text-success">
+                                <h5 class="card-title" style="color:gray">Discover Rewards Notifier</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="6u 12u$(mobile)">
+                        <div class="card border-primary mb-3">
+                            <div class="card-header">Contributor</div>
+                            <div class="card-body text-primary">
+                                <h5 class="card-title" style="color:gray">Ethereum Documentation</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">View Contributions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row centered">
+                    <div class="6u 12u$(mobile)">
+                        <div class="card border-primary mb-3">
+                            <div class="card-header">Contributor</div>
+                            <div class="card-body text-primary">
+                                <h5 class="card-title" style="color:gray">Moss.py</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">View Contributions</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="6u 12u$(mobile)">
+                        <div class="card border-primary mb-3">
+                            <div class="card-header">Contributor</div>
+                            <div class="card-body text-primary">
+                                <h5 class="card-title" style="color:gray">CirlceCI Docker Image</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">View Contributions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </article>
 
         <!-- Activities -->

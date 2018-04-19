@@ -823,6 +823,14 @@
         text-align: center;
     }
 
+    p.long {
+        font-size: 80%;
+    }
+
+    .LI-profile-badge {
+        margin-top: 20px;
+    }
+
 /* Table */
 
 	table {
@@ -916,6 +924,10 @@
 	header > p {
 		color: #aaa;
 	}
+
+    .centered {
+        text-align: center;
+    }
 
 /* Image */
 
