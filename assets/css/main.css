@@ -1436,16 +1436,24 @@
 						margin: 0;
 					}
 
-                    #me header > h3 {
+                    #me header > p {
                         position: absolute;
                         left: 0;
                         bottom: 52.5%;
+                        font-size: 150%;
                     }
 
-					#me header > p {
+                    #me header > hr {
+                        border-top: solid 1px #777777;
+                        position: absolute;
+                        top: 47.5%;
+                        width: 400px;
+                    }
+
+					#me header > div.rw-words {
 						position: absolute;
 						left: 0;
-						top: 55%;
+						top: 65%;
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
@@ -1607,3 +1615,37 @@
 			}
 
 	}
+
+.rw-words{
+    display: inline;
+}
+
+.rw-words span{
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    width: max-content;
+    height: max-content;
+}
+
+.rw-words-landing span{
+    animation: rotateWordsLanding 12s linear infinite 0s;
+}
+.rw-words span:nth-child(2) {
+    animation-delay: 6s;
+    color: #6b889d;
+}
+.rw-words span:nth-child(3) {
+    animation-delay: 12s;
+    color: #6b739d;
+}
+
+@keyframes rotateWordsLanding {
+    0% { opacity: 0; }
+    5% { opacity: 0; -moz-transform: translateY(-50px); }
+    10% { opacity: 1; -moz-transform: translateY(0px); }
+    25% { opacity: 1; -moz-transform: translateY(0px); }
+    30% { opacity: 0; -moz-transform: translateY(50px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
