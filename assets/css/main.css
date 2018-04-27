@@ -1447,7 +1447,7 @@
                         border-top: solid 1px #777777;
                         position: absolute;
                         top: 47.5%;
-                        width: 400px;
+                        width: 45%;
                     }
 
 					#me header > div.rw-words {
@@ -1500,13 +1500,13 @@
         @keyframes typing {
             0% {opacity: 0; width: 0}
             1% {opacity: 1; width: 0}
-            25% { opacity: 1; width: 400px}
-            45% { opacity: 1; width: 400px}
+            25% { opacity: 1; width: 45%}
+            45% { opacity: 1; width: 45%}
             49% {opacity: 1; width: 0}
             50% {opacity: 0; width: 0}
         }
 
-        /* The typewriter cursor effect */
+         The typewriter cursor effect
         @keyframes blink-caret {
             from, to { border-color: transparent }
             50% { border-color: orange}
