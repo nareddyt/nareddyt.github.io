@@ -11,5 +11,8 @@
     <orderEntry type="library" name="analytics" level="application" />
     <orderEntry type="library" name="profile" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="analytics" level="application" />
+    <orderEntry type="library" name="profile" level="application" />
   </component>
 </module>
