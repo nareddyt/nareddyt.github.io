@@ -9,18 +9,18 @@
     <title>Tejasvi Nareddy</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="Tejasvi Nareddy's Personal Website">
+    <meta name="description" content="Tejasvi Nareddy">
     <meta name="author" content="Tejasvi Nareddy">
     <meta property="og:title" content="Tejasvi Nareddy" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.tejunareddy.com" />
     <meta property="og:image" content="https://www.tejunareddy.com/images/teju-nareddy-cropped.jpg" />
 
-    <!--[if lte IE 8]>
-    <script src="assets/js/ie/html5shiv.js"></script>
-    <![endif]-->
-
+    <!-- External CSS - Load this first so we can overwrite it -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- End External CSS -->
+
+    <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/main.css"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
@@ -29,6 +29,8 @@
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="assets/css/ie8.css"/>
     <![endif]-->
+
+    <!-- End My CSS -->
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -70,9 +72,9 @@
                 ]
             }
         }
-
-
     </script>
+    <!-- End Structured Data -->
+
 </head>
 <body>
 
@@ -95,7 +97,7 @@
            ga-event-category="Navigation: Open Source"
            ga-event-action="click"
            href="#open-source"
-           class="icon fa-code"><span>Open Source</span></a>
+           class="icon fa-code"><span>Open-Source</span></a>
         <a ga-on="click,auxclick,contextmenu"
            ga-event-category="Navigation: Projects"
            ga-event-action="click"
@@ -331,10 +333,12 @@
 
 </div>
 
-<!-- Scripts -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-<script src="assets/js/jquery.min.js"></script>
 
+<!-- Jquery - Note this needs to be loaded first due to dependencies -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- Jquery -->
+
+<!-- My Scripts -->
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/skel-viewport.min.js"></script>
 <script src="assets/js/util.js"></script>
@@ -342,18 +346,24 @@
 
 <!--[if lte IE 8]>
 <script src="assets/js/ie/respond.min.js"></script>
+<script src="assets/js/ie/html5shiv.js"></script>
 <![endif]-->
 
 <script src="assets/js/main.js"></script>
+<!-- End My Scripts -->
+
+<!-- Bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+
+<!-- LinkedIn Badge -->
+<script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js"></script>
+<!-- End LinkedIn Badge -->
 
 <!-- Google Analytics -->
 <script async defer src='https://www.google-analytics.com/analytics.js'></script>
 <script async defer src="assets/js/autotrack.js"></script>
 <!-- End Google Analytics -->
-
-<!-- LinkedIn Badge -->
-<script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js"></script>
-<!-- End LinkedIn Badge -->
 
 </body>
 </html>
