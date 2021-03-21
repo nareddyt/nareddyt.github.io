@@ -14,10 +14,3 @@
 [Astral by HTML5 UP](https://html5up.net/astral)
 
 Credit goes to @ajlkn
-
-## Other Resources
-
-This repository tracks the history of my career documents, such as my resume. See:
-
-- `Resume.pdf` in the root directory.
-- The `docs/` folder. 

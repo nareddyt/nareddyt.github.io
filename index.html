@@ -11,13 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Tejasvi Nareddy">
     <meta name="author" content="Tejasvi Nareddy">
-    <meta property="og:title" content="Tejasvi Nareddy" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.tejunareddy.com" />
-    <meta property="og:image" content="https://www.tejunareddy.com/images/teju-nareddy-cropped.jpg" />
+    <meta property="og:title" content="Tejasvi Nareddy"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.tejunareddy.com"/>
+    <meta property="og:image" content="https://www.tejunareddy.com/images/teju-nareddy-cropped.jpg"/>
 
     <!-- External CSS - Load this first so we can overwrite it -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- End External CSS -->
 
     <!-- My CSS -->
@@ -92,22 +93,7 @@
            ga-event-category="Navigation: Experience"
            ga-event-action="click"
            href="#experience"
-           class="icon fa-briefcase"><span>Experience</span></a>
-        <a ga-on="click,auxclick,contextmenu"
-           ga-event-category="Navigation: Open Source"
-           ga-event-action="click"
-           href="#open-source"
-           class="icon fa-code"><span>Open-Source</span></a>
-        <a ga-on="click,auxclick,contextmenu"
-           ga-event-category="Navigation: Projects"
-           ga-event-action="click"
-           href="#projects"
-           class="icon fa-codepen"><span>Projects</span></a>
-        <a ga-on="click,auxclick,contextmenu"
-           ga-event-category="Navigation: Activities"
-           ga-event-action="click"
-           href="#activities"
-           class="icon fa-bolt"><span>Activities</span></a>
+           class="icon fa-code"><span>Experience</span></a>
     </nav>
 
     <!-- Main -->
@@ -117,16 +103,16 @@
         <article id="me" class="panel">
             <header>
                 <h1>Tejasvi (Teju) Nareddy</h1>
-                <p>Enterprise Software Engineer</p>
+                <p>Software Engineer</p>
                 <hr/>
                 <div class="rw-words rw-words-landing">
                     <span>
-                        Computer science student at:<br/>
-                        Georgia Institute of Technology
+                        Employed at Google<br/>
+                        Previously: Amazon, Salesforce
                     </span>
                     <span>
-                        Internship experience at:<br/>
-                        Amazon, Google, and Salesforce
+                        Bachelor in Computer Science<br/>
+                        Georgia Institute of Technology
                     </span>
                 </div>
             </header>
@@ -143,227 +129,77 @@
         <!-- Experience -->
         <article id="experience" class="panel">
             <header>
-                <h2 class="centered">Experience</h2>
+                <h2 class="centered">Work Experience</h2>
                 <hr/>
             </header>
 
             <div class="row">
                 <div class="8u 12u$(mobile)">
-                    <p class="long">
-                        Hi! I'm a <b>Software Engineer</b> with experience across various technologies, whether at work or in my free time.
-                        I love to work on meaningful software projects and contribute to a variety of <b>open source</b> projects.
-                        <br/>
-                        <br/>
-                        Currently, I'm a senior at <b>Georgia Tech</b> with concentrations in Cloud Computing and Artificial Intelligence.
-                        At Georgia Tech, I worked as the <b>Head Teaching Assistant</b> for Introduction to Artificial Intelligence
-                        and a <b>Tutor</b> for Objects and Design.
-                        I anticipate on graduating in <b>May 2019</b>.
-                        <br/>
-                        <br/>
-                        I worked as a <b>Software Engineering Intern</b> at Amazon Web Services, Google Cloud Platform, and Salesforce IoT.
+                    <p class="long" id="work-intro">
+                        SWE on Google Cloud <a href="https://cloud.google.com/service-infrastructure/docs/overview"
+                                               target="_blank">service
+                        infrastructure's</a> data plane.
+                        Maintainer of <a href="https://github.com/GoogleCloudPlatform/esp-v2" target="_blank">ESPv2</a>
+                        and contributor to
+                        open-source projects related to <a href="https://github.com/envoyproxy/envoy" target="_blank">Envoy
+                        proxy</a>.
+                        Primary areas of focus include admission control, observability (metrics, logging, tracing),
+                        protocol buffers, JSON-gRPC transcoding, JWT authentication, and fuzz testing.
+                    </p>
+                    <p class="long" id="github-contributions">
+                        50% of my time at Google is spent on OSS.
+                        Visit <a href="https://github.com/nareddyt" target="_blank">www.github.com/nareddyt</a>
+                        to view my contributions, areas of ownership, and side projects.<br/>
+                    </p>
+                    <p class="long" id="resume">
+                        My updated resume is <a ga-on="click,auxclick,contextmenu"
+                                                ga-event-category="Navigation: Resume"
+                                                ga-event-action="click" href="Resume.pdf"
+                                                target="_blank">
+                        viewable here</a>.<br/>
                     </p>
                 </div>
                 <div class="4u 12u$(mobile)" id="linkedin-badge">
                     Loading...
                 </div>
             </div>
-
-            <hr/>
-            <header>
-                <h3 class="centered">Internships</h3>
-            </header>
-
-            <section>
-                <div class="row centered">
-                    <div class="4u 12u$(mobile)">
-                        <a class="image fit company"><img src="images/icon-amazon.png" alt=""></a>
-                        <p class="company">
-                            <b>Amazon Web Services</b><br/>
-                            Elastic MapReduce<br/>
-                            Spring 2018
-                        </p>
-                    </div>
-                    <div class="4u 12u$(mobile)">
-                        <a class="image fit company"><img src="images/icon-google.png" alt=""></a>
-                        <p class="company">
-                            <b>Google Cloud Platform</b><br/>
-                            Cloud Apigee<br/>
-                            Summer 2018
-                        </p>
-                    </div>
-                    <div class="4u 12u$(mobile)">
-                        <a class="image fit company"><img src="images/icon-salesforce.png" alt=""></a>
-                        <p class="company">
-                            <b>Salesforce</b><br/>
-                            IoT & Compute Cloud<br/>
-                            Summer 2017, Summer 2016
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <hr/>
-            <header>
-                <h3 class="centered">Skill Sets</h3>
-            </header>
-            <section>
-                <div class="row centered">
-                    <div class="4u 12u$(mobile)">
-                        Cloud Computing
-                    </div>
-                    <div class="4u 12u$(mobile)">
-                        Big Data
-                    </div>
-                    <div class="4u 12u$(mobile)">
-                        Distributed Systems
-                    </div>
-                </div>
-                <br/>
-                <div class="row centered">
-                    <div class="4u 12u$(mobile)">
-                        Artificial Intelligence
-                    </div>
-                    <div class="4u 12u$(mobile)">
-                        Blockchain
-                    </div>
-                    <div class="4u 12u$(mobile)">
-                        Internet of Things
-                    </div>
-                </div>
-            </section>
-        </article>
-
-        <!-- Open Source -->
-        <article id="open-source" class="panel">
-            <header>
-                <h2 class="centered">Open Source</h2>
-                <hr>
-            </header>
-
-            <section class="centered">
-                <p id="github-contributions">
-                    Check out <a href="https://github.com/nareddyt" target="_blank">github/nareddyt</a> for my contributions, code style, and projects!<br/>
-                </p>
-
-            </section>
-
-            <section>
-                <div class="row centered">
-                    <div class="6u 12u$(mobile)">
-                        <div class="card border-success mb-3">
-                            <div class="card-header">Author & Maintainer</div>
-                            <div class="card-body text-success">
-                                <h5 class="card-title" style="color:gray">Discover Rewards Notifier</h5>
-                                <p class="card-text">A Chrome Extension that notifies users about Discover® Deals.</p>
-                                <a href="https://www.tejunareddy.com/discover-rewards-notifier/" target="_blank" class="btn btn-success">View Active Project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="6u 12u$(mobile)">
-                        <div class="card border-primary mb-3">
-                            <div class="card-header">Contributor</div>
-                            <div class="card-body text-primary">
-                                <h5 class="card-title" style="color:gray">Alexa API Bridge</h5>
-                                <p class="card-text">Bridge to connect Amazon Alexa to Api.ai using an AWS Lambda Function.</p>
-                                <a href="https://github.com/Gnzlt/AlexaApiAiBridge/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Anareddyt" target="_blank" class="btn btn-primary">View My Contributions</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row centered">
-                    <div class="6u 12u$(mobile)">
-                        <div class="card border-primary mb-3">
-                            <div class="card-header">Contributor</div>
-                            <div class="card-body text-primary">
-                                <h5 class="card-title" style="color:gray">Moss.py</h5>
-                                <p class="card-text">A Python client for Moss: A System for Detecting Software Similarity.</p>
-                                <a href="https://github.com/soachishti/moss.py/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Anareddyt" target="_blank" class="btn btn-primary">View My Contributions</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="6u 12u$(mobile)">
-                        <div class="card border-primary mb-3">
-                            <div class="card-header">Contributor</div>
-                            <div class="card-body text-primary">
-                                <h5 class="card-title" style="color:gray">Ethereum Documentation</h5>
-                                <p class="card-text">This repository contains the Homestead Release of the ethereum.org website.</p>
-                                <a href="https://github.com/ethereum/ethereum-org/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Anareddyt" target="_blank" class="btn btn-primary">View My Contributions</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </article>
-
-        <!-- Projects -->
-        <article id="projects" class="panel">
-            <header>
-                <h2>Projects</h2>
-            </header>
-            <p>
-                Oops! This page currently has no content. Please check back in a few weeks.
-            </p>
-        </article>
-
-        <!-- Activities -->
-        <article id="activities" class="panel">
-            <header>
-                <h2>Activities</h2>
-            </header>
-            <p>
-                Oops! This page currently has no content. Please check back in a few weeks.
-            </p>
         </article>
 
     </div>
 
-    <!-- Footer -->
-    <div id="footer">
-        <ul class="copyright">
-            <li><a href="mailto:tejunareddy@gmail.com" target="_blank" class="icon fa-inbox"></a></li>
-            <li><a href="https://www.linkedin.com/in/tejasvinareddyteju/" target="_blank" class="icon fa-linkedin"></a></li>
-            <li><a href="https://github.com/nareddyt" target="_blank" class="icon fa-github"></a></li>
-            <li><a ga-on="click,auxclick,contextmenu"
-                   ga-event-category="Navigation: Resume"
-                   ga-event-action="click"
-                   href="Resume.pdf"
-                   target="_blank"
-                   class="icon fa-file-word-o"></a></li>
-        </ul>
-    </div>
 
-</div>
+    <!-- Jquery - Note this needs to be loaded first due to dependencies -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Jquery -->
 
+    <!-- My Scripts -->
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/lazy-load.js"></script>
 
-<!-- Jquery - Note this needs to be loaded first due to dependencies -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- Jquery -->
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/respond.min.js"></script>
+    <script src="assets/js/ie/html5shiv.js"></script>
+    <![endif]-->
 
-<!-- My Scripts -->
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/skel-viewport.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/lazy-load.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- End My Scripts -->
 
-<!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script>
-<script src="assets/js/ie/html5shiv.js"></script>
-<![endif]-->
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
 
-<script src="assets/js/main.js"></script>
-<!-- End My Scripts -->
+    <!-- LinkedIn Badge -->
+    <script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js"></script>
+    <!-- End LinkedIn Badge -->
 
-<!-- Bootstrap -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-<!-- Bootstrap -->
-
-<!-- LinkedIn Badge -->
-<script async defer type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js"></script>
-<!-- End LinkedIn Badge -->
-
-<!-- Google Analytics -->
-<script async defer src='https://www.google-analytics.com/analytics.js'></script>
-<script async defer src="assets/js/autotrack.js"></script>
-<!-- End Google Analytics -->
+    <!-- Google Analytics -->
+    <script async defer src='https://www.google-analytics.com/analytics.js'></script>
+    <script async defer src="assets/js/autotrack.js"></script>
+    <!-- End Google Analytics -->
 
 </body>
 </html>
